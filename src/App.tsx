@@ -1,5 +1,10 @@
 import React from "react";
 
-const App = () => <div>hello</div>;
+import Container from "./Container";
 
+const App = () => (
+  <Container>
+    <h1>UI / UX 의 10가지 심리학 법칙</h1>
+  </Container>
+);
 export default App;
